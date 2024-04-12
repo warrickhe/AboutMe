@@ -1,0 +1,13 @@
+ul {
+    list-style: none; margin: 0; padding: 0; float:left; display: inline;
+}
+ul li {
+    float:left; margin: 0 5px; padding: 3px 2px;
+}
+ul li ul {
+    display: grid;
+}
+.courses {
+    display: inline-block;
+    margin-right: 10px; /* add spacing between items */
+}
