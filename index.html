@@ -3,9 +3,11 @@
   <head>
     <title>Warrick He</title>
     <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="author" content="Warrick He">
   </head>
   <body>
-    <div class="outer">
+    <div class="resume_section">
         <div>
             <h1>
                 Warrick Leon Liyang He
@@ -13,37 +15,69 @@
         </div>
     </div>
     
-    <div class="outer">
-        <div>
-            <h2>
-                Work Experience
-            </h2>
-            <div>
-                <h3>Nutanix</h3>
-                <p>Did something <br> Did something else</p>
-            </div>
-            <div>
-                <h3>Umbo Computer Vision</h3>
-            </div>
+    <div class="resume_section">
+        <h2>
+            Work Experience
+        </h2>
+        <div class="resume_item">
+            <img src="images/nutanix.png" alt="Nutanix">
+            <p>
+                <strong>Nutanix — Software Engineer Intern</strong><br>
+                Constructed a Grafana Prometheus dashboard in Python to perform analysis on NVIDIA GPU performance
+                <br>Reduced weeks long debugging efforts into hours by providing key task related metrics of over 40 processes
+                <br>Aggregated and used data to detect system regression, visualizing it using Grafana and Elastic Search
+                <br>Writing Python tools to analyze the performance of distributed systems under the stress of 3000 virtual machines
+            </p>
+        </div>
+        <div class="resume_item" alt="UmboCV">
+            <img src="images/umbo_cv.png">
+            <p>
+                <strong>Umbo Computer Vision — Software Engineer Intern</strong><br>
+                Wrote a Python script that can generate videos of people walking or standing at any distance on any background
+                <br>Identified the causes of the computer vision model’s failed test cases and provided crucial feedback to teams
+                <br>Automated product testing by using Linux and Python scripts to generate over 60 hours of fake traffic
+            </p>
         </div>
     </div>
     
-    <div class="outer">
-        <div>
-            <h2>
-                Research Experience
-            </h2>
-            <div>
-                <h3>UCLA</h3>
-            </div>
-            <div>
-                <h3>UC Irvine</h3>
-            </div>
+    <div class="resume_section">
+        <h2>
+            Research Experience
+        </h2>
+        <div class="resume_item">
+            <img src="images/ucla.png" alt="UCLA">
+            <p>
+                <strong>UCLA VAST Labratory</strong><br>
+                Coming soon!
+            </p>
+        </div>
+        <div class="resume_item">
+            <img src="images/ucla.png" alt="UCLA">
+            <p>
+                <strong>UCLA Computational Machine Learning Group</strong><br>
+                Researched factors that may cause memorization in generative models and any possible remedies
+                <br>Constructed a library to compute memorization metrics such as k-NN, random forest, and k-fold approximation
+                <br>Worked with 7 other research assistants to test hypotheses on language model memorization
+            </p>
+        </div>
+        <div class="resume_item">
+            <img src="images/uc_irvine.png" alt="UC Irvine">
+            <p>
+                <strong>UC Irvine Embedded & Cyber-Physical Systems</strong><br>
+                Designed a low power consumption LSTM model, reaching over 90% accuracy in predicting electric motor failures
+                <br>Explored different neural network architectures and used Gaussian noise to create more training data
+                <br>Processed and visualized time series data through a combination of MATLAB, NumPy, Pandas, and Matplotlib
+                <br>
+                <span style="color:white">
+                    Co-authored an <a href="ieeexplore.ieee.org/document/9556333">award winning paper.</a>
+                    <a href="Paper Overview: archive-www.ics.uci.edu/community/news/view news.php?id=2063">Paper Overview.</a>
+                </span>
+            </p>
         </div>
     </div>
-    <div class="outer">
-        <div>
-            <h2>Relevant Coursework</h2>
+    <div class="resume_section">
+        <h2>Relevant Coursework</h2>
+        <div class="center">
             <ul class="courses">
                 <li>
                     <ul>
@@ -70,6 +104,61 @@
             </ul>
         </div>
     </div>
-    
+    <div class="resume_section center">
+        <table>
+            <caption>
+                Programming Languages Proficiency
+            </caption>
+            
+            <thead>
+                <tr>
+                <th scope="col"></th>
+                <th scope="col">Java</th>
+                <th scope="col">Python</th>
+                <th scope="col">C/C++</th>
+                <th scope="col">HTML/CSS</th>
+                <th scope="col">SQL</th>
+                <th scope="col">Haskell</th>
+                <th scope="col">Assembly</th>
+                <th scope="col">JavaScript</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">Comfortable Writing</th>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                </tr>
+                <tr>
+                    <th scope="row">Comfortable Reading</th>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <th scope="row">Only Used in Projects</th>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
   </body>
 </html>

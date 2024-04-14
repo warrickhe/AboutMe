@@ -1,28 +1,69 @@
+html {
+    background-color: #242424;
+    color: #c5b9b9;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-variant: slashed-zero;
+}
+
+h1 {
+    color: #FFF;
+}
+
+a {
+color: #FFF;
+}
+
+img {
+    display: inline-block;
+    width: MAX(15%, 80PX);
+    height: MAX(15%, 80PX);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+div {
+    border: 3px solid rgb(68, 68, 73);
+}
+
 ul {
     list-style: none;
+    display: inline-block;
 }
-ul li {
+
+ul > li {
     float:left; margin: 0 5px; padding: 3px 2px;
 }
-ul li ul {
+ul > li > ul {
     display: grid;
 }
+
 .courses {
     display: inline-block;
     margin-right: 10px; /* add spacing between items */
 }
 
-div {
+.resume_section {
     margin: auto;
     width: 80%;
-    border: 3px solid rgb(68, 68, 73);
     padding: 10px;
-    text-align: center;
+    text-align: left;
+    margin-top: 10px;
 }
 
-.outer {
+.resume_item {
+    width: 90%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
     margin: auto;
-    width: 80%;
-    border: 0px solid rgb(68, 68, 73);
-    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.center{
+    text-align: center;
 }
