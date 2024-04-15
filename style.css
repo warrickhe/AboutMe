@@ -4,14 +4,30 @@ html {
     font-family: 'Garamond';
     font-style: normal;
     font-variant: slashed-zero;
+    line-height: 1.5em;
+    font-size: 1.1em;
 }
 
 h1 {
     color: #FFF;
+    font-variant: small-caps;
+    font-family: 'Blippo';
 }
 
-a {
-color: #FFF;
+a:link {
+    color: #FFF;
+}
+
+a:visited {
+    color: rgb(86, 86, 168);
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: rgb(54, 54, 116);
 }
 
 img {
@@ -21,12 +37,24 @@ img {
     padding: 10px;
 }
 
-td {
-    text-align: center;
+i {
+    font-size: 3em;
 }
 
-div {
-    border: 3px solid rgb(68, 68, 73);
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+    margin:auto;
+}
+
+thead {
+    background-color: rgb(51, 40, 28);
+}
+
+tfoot {
+    background-color: rgb(41, 18, 18);
 }
 
 ul {
@@ -48,7 +76,7 @@ ul > li > ul {
 
 .resume_section {
     margin: auto;
-    width: 80%;
+    width: 75%;
     padding: 10px;
     text-align: left;
     margin-top: 10px;
@@ -62,8 +90,16 @@ ul > li > ul {
     gap: 12px;
     margin: auto;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 .center{
     text-align: center;
+}
+
+#contacts {
+    align-items:center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
