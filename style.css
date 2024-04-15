@@ -62,11 +62,7 @@ tfoot {
 }
 
 ul {
-    list-style-type: square;
-}
-
-ul > li > ul{
-    list-style-type: trad-chinese-informal;
+    list-style-type: none;
 }
 
 .courses {
