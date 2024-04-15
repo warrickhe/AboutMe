@@ -1,7 +1,7 @@
 HTML
 1. colspan & rowspan, more sophisticated tables in general
-2. Making icons with the <i> tag
-3. The <head> tag and its usages
+2. Making icons with the <i\> tag
+3. The <head\> tag and its usages
 
 CSS
 1. The different link states (link, visited, hover, active)
